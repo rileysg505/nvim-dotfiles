@@ -3,3 +3,5 @@
 -- Add any additional options here
 vim.opt.winbar = "%=%m %f"
 vim.opt.relativenumber = true
+-- Use the system clipboard for all yank, delete, change, and put operations
+vim.opt.clipboard:append("unnamedplus")
